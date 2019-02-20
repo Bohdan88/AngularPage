@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> VentureX</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Include custom js-->
+    <script src = "main.js"></script>
+   
+
+    <!-- include Chart-->
+
+    <script src="Chart.js"></script>
+
+    <!--Include custom style-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+ 
+</head>
+  <body>
+
+      <!--Header-->
+      <div class="jumbotron header">
+          <p class="lead"><b>VenturX: Prototype</b> <button type="button" class="btn btn-primary btn_adjust">Sign In</button></p>
+        </div>
+
+
+        <!--  Second block -->
+           <div class = "container">
+                <div class = "row">
+                   <div class = "col-md-3 col-sm-4">
+                       <div class="card" style="width: 18rem;">
+                           <img src="img/img_avatar.png" class="card-img-top card_img" alt="...">
+                       </div>
+                     </div>
+
+             <div class = "col-md-9 col-sm-8">
+                  <div class = "main">
+                     <table class = "custom_table">
+                        <tr>
+                            <th>Market</th>
+                            <td>Fill in who are your customers?</td> 
+                             <th></th>
+                        </tr>
+                        <tr>
+                              <td><b>Pain</b></td>
+                               <td>What is the pain statement that you are trying to solve for them?</td>
+                               <td></td>
+                         </tr>
+                           <tr>
+                              <td><b>Benefits</b></td>
+                              <td>What is the benefits that will match that pain statement?</td>
+                               <td><button type="button" class="btn btn-light btn_light">Sign In</button></td>
+                          </tr>
+                 
+                        </table>
+                  </div>
+      
+        
+               </div>
+             </div>
+           </div>
+
+    <!--VentureX-->
+         <div class = "row">
+             <div class = "col-12">
+                <h1 class = "chart_header text-center"> How is <b>VenturX</b> doing today?</h1>
+            </div>
+        </div>
+
+    <!-- Pie Charts-->
+
+        <div class = "container">
+            <div class = "row">
+              <div class = "col-lg-3 col-sm-6">
+                 <div class = "charts">
+                    <p class = "chart_topic">Product <br> <b>27 %</b></p>
+
+                        <canvas id="mycanvas" width="256" height="256"> </canvas>
+                  </div>
+               </div>
+
+   
+        <!-- Second line-->
+
+        <div class = "col-lg-3 col-sm-6">
+            <div class = "charts">
+                <p class = "chart_topic">Runway <br> <b>3 month</b></p>
+
+                     <canvas id="myseccanvas" width="256" height="256"></canvas> 
+      
+            </div>
+        </div>
+
+          <!-- Third-->
+
+        <div class = "col-lg-3 col-sm-6">
+             <div class = "charts">
+                  <p class = "chart_topic">Conversion <br> <b>27 %</b></p>
+
+                     <canvas id="myThirdCanvas" width="256" height="256"> </canvas>
+        
+              </div>
+          </div>
+
+          <!--Fourth-->
+
+          <div class = "col-lg-3 col-sm-6">
+              <div class = "charts">
+                    <p class = "chart_topic">Engagement <br> <b>100 %</b></p>
+
+                        <canvas id="myLastCanvas" width="256" height="256"> </canvas>
+          
+            </div>
+          </div>
+     
+        </div>
+      </div>
+
+
+    <!-- BeforeLast -->
+        <div class = "container">
+            <div class="jumbotron_custom">
+               <div class="container">
+                   <p class="text-left"><b>Small converstion?</b> Learn what you can do to <b>rise your converstion.</b></p>
+                </div>
+              </div>
+         </div>
+   
+
+
+      <!-- last -->
+           <div class = "container">
+              <div class="jumbotron_custom_second">
+                 <div class="container">
+                     <p class="text-left"><b>Low product score? Try this</b> to get more ...</p>
+                   </div>
+                </div>
+            </div>
+          
+   
+    
+  </body>
+</html>

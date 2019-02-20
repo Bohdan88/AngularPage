@@ -1,0 +1,119 @@
+
+/* header*/
+
+.lead {
+    padding-left: 120px;
+}
+
+
+.btn_adjust{
+    float: right;
+    margin-right: 120px;
+    margin-bottom:50px;
+    width:100px;
+}
+
+
+/* card*/
+.card_img{
+    width:200px;
+    border-radius: 15px;
+    
+}
+
+/* table*/
+table {
+    width:80%;
+    height:200px;
+  }
+  table {
+    border: 3px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+    font-size:16px;
+  }
+  table#t01 tr:nth-child(even) {
+    background-color: #eee;
+  }
+  table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+  }
+  table#t01 th {
+    background-color: black;
+    color: white;
+  }
+
+  .btn_light{
+      border:1px solid gray;
+  }
+
+
+  /**/
+
+  .chart_topic{
+      font-size:20px;
+      text-align: center;
+  }
+
+/**/
+
+
+
+.chart_header{
+    font-weight: 300;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+
+/* lastBlocks*/
+
+.jumbotron_custom {
+    margin-top: 50px;
+    background-color: #FFF8DC;
+    height: 62px!important;
+    padding-top: 17px;
+    border-radius: 10px;
+    font-size:18px;
+    border:1px solid #F5DEB3;
+    color:#8B4513;
+}
+
+.jumbotron_custom_second{
+    margin-top: 20px;
+    background-color: #FFC0CB;
+    height: 62px!important;
+    padding-top: 17px;
+    border-radius: 10px;
+    font-size:18px;
+    border:1px solid #F08080;
+    margin-bottom:50px;
+    color:#8B0000;
+}
+
+
+ 
+/**/
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .chart_topic {
+       text-align: initial;
+    }
+ }
+
+
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+     table{
+        width:100%;
+
+     }
+
+     .chart_topic {
+        text-align: inherit;
+     }
+  }
